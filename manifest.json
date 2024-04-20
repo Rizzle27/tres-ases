@@ -1,0 +1,24 @@
+{
+  "author": "Lucas Garcia",
+  "description": "E-commerce | TresAses",
+  "name": "TresAses",
+  "dir": "ltr",
+  "orientation": "any",
+  "scope": "./",
+  "start_url": "./",
+  "theme_color": "#0c0c0c",
+  "background_color": "#0c0c0c",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "sizes": "16x16",
+      "type": "image/png",
+      "src": "assets/images/icons/logo-16x16.png"
+    },
+    {
+      "sizes": "144x144",
+      "type": "image/png",
+      "src": "assets/images/icons/logo-144x144.png"
+    }
+  ]
+}

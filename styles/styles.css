@@ -1,0 +1,229 @@
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  z-index: 100;
+}
+
+.vertical-line {
+  width: 1px;
+  background-color: #0c0c0c;
+}
+
+#shopMenu.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+#shopMenu {
+  opacity: 1;
+  position: absolute;
+  width: 100vw;
+  visibility: visible;
+  display: flex;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: opacity 1s;
+  z-index: 10;
+}
+
+#shopMenu ul {
+  padding: 0;
+  list-style: none;
+}
+
+#carousel {
+  z-index: 20;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#slidesContainer {
+  width: 100%;
+  height: 90vh;
+}
+
+.slide {
+  position: relative;
+  width: 10%;
+  transition: width 0.5s;
+}
+
+.slide:hover {
+  cursor: pointer;
+}
+
+.slide.active:hover {
+  cursor: auto;
+}
+
+.slide > .slideBody {
+  display: none !important;
+}
+
+.slide.active {
+  width: 90% !important;
+}
+
+.slide.active > .slideBody {
+  display: block !important;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideBody {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide:nth-child(1) {
+  .slideBody h2,
+  .slideBody a {
+    background-color: #231917;
+  }
+
+  .slideBody a {
+    border: 2px solid #231917;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .slideBody a:hover {
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    color: #231917 !important;
+  }
+}
+
+.slide:nth-child(2) {
+  .slideBody h2,
+  .slideBody a {
+    background-color: #fef444;
+  }
+
+  .slideBody a {
+    border: 2px solid #fef444;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .slideBody a:hover {
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+    color: #fef444 !important;
+  }
+}
+
+.slideActiver {
+  position: absolute;
+  height: 80px;
+  left: -40px;
+  top: 50%;
+}
+
+#categorias img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenedorCategoria {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.contenedorCategoria a {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #0c0c0c6d;
+}
+
+.howToBuyLink:hover {
+  color: #0c0c0c !important;
+  transition: all 0.3s;
+}
+
+#footerMenu li {
+  list-style: none;
+}
+
+#footerMenu a {
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #0c0c0c !important;
+  transition: all 0.3s;
+}
+
+/* about seccion */
+
+#aboutHeader {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#aboutBanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#shadowedImage {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#smallSizeContainer,
+#midSizeContainer,
+#bigSizeContainer {
+  cursor: pointer;
+}
+
+/* shop section */
+
+
+/* Carrito */
+
+#carritoContainer {
+  position: relative;
+}
+
+#carrito {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 57px;
+  right: -120px;
+  max-height: 70vh;
+  width: 450px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.categoriaProducto {
+  border-radius: 50px;
+  display: inline-block !important;
+  width: fit-content;
+}
+
+/* pago */
+
+#pagoForm input, #pagoForm select {
+  padding: 8px 15px;
+  border-radius: 0;
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.required-label::after {
+  content: " *";
+  color: #dc3545;
+}

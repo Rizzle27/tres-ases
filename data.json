@@ -1,0 +1,140 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "categoria": "Remeras",
+      "nombre": "Remera 3/4 Jersey - Mujer",
+      "descripcion": "Remera 3/4 de jersey para mujer.",
+      "precio": 7.159,
+      "imagen": "assets/images/products/remera_3-4_jersey.jpg"
+    },
+    {
+      "id": 5,
+      "categoria": "Remeras",
+      "nombre": "Remera de Ribb escote redondo - Hombre",
+      "descripcion": "Remera de ribb con escote redondo para hombre.",
+      "precio": 6.829,
+      "imagen": "assets/images/products/remera_de_ribb_hombre.jpg"
+    },
+    {
+      "id": 6,
+      "categoria": "Remeras",
+      "nombre": "Remera de Algodón - Mujer",
+      "descripcion": "Remera de algodón para mujer.",
+      "precio": 6.799,
+      "imagen": "assets/images/products/remera_algodon_mujer.jpg"
+    },
+    {
+      "id": 7,
+      "categoria": "Remeras",
+      "nombre": "Remera Algodón Manga Larga - Mujer",
+      "descripcion": "Remera de algodón manga larga para mujer.",
+      "precio": 6.799,
+      "imagen": "assets/images/products/remera_algodon_manga_larga_mujer.jpg"
+    },
+    {
+      "id": 8,
+      "categoria": "Remeras",
+      "nombre": "Remera Térmica Manga Larga - Mujer",
+      "descripcion": "Remera térmica de manga larga para mujer.",
+      "precio": 7.599,
+      "imagen": "assets/images/products/remera_termica_mujer.jpg"
+    },
+    {
+      "id": 4,
+      "categoria": "Musculosas",
+      "nombre": "Musculosa de Ribb con Breteles - Mujer",
+      "descripcion": "Musculosa de ribb con breteles para mujer.",
+      "precio": 6.199,
+      "imagen": "assets/images/products/musculosa_de_ribb_con_breteles_mujer.jpg"
+    },
+    {
+      "id": 9,
+      "categoria": "Musculosas",
+      "nombre": "Musculosa de Jersey - Mujer",
+      "descripcion": "Musculosa de jersey para mujer.",
+      "precio": 6.199,
+      "imagen": "assets/images/products/musculosa_jersey_mujer.jpg"
+    },
+    {
+      "id": 10,
+      "categoria": "Musculosas",
+      "nombre": "Musculosa de Morley 100% algodón - Hombre",
+      "descripcion": "Musculosa de morley fabricada 100% de algodón para hombre.",
+      "precio": 6.199,
+      "imagen": "assets/images/products/musculosa_morley_algodon_hombre.jpg"
+    },
+    {
+      "id": 11,
+      "categoria": "Musculosas",
+      "nombre": "Musculosa de Morley Deportiva - Mujer",
+      "descripcion": "Musculosa de morley deportiva para mujer.",
+      "precio": 5.589,
+      "imagen": "assets/images/products/musculosa_morley_deportiva_mujer.jpg"
+    },
+    {
+      "id": 12,
+      "categoria": "Musculosas",
+      "nombre": "Musculosa de Morley - Mujer",
+      "descripcion": "Musculosa de morley para mujer.",
+      "precio": 5.589,
+      "imagen": "assets/images/products/musculosa_morley_mujer.jpg"
+    },
+    {
+      "id": 2,
+      "categoria": "Chombas",
+      "nombre": "Chomba de Pique - Mujer",
+      "descripcion": "Chomba de pique manga corta para mujer.",
+      "precio": 9.599,
+      "imagen": "assets/images/products/chomba_de_pique_mujer.jpg"
+    },
+    {
+      "id": 13,
+      "categoria": "Chombas",
+      "nombre": "Chomba de Pique - Hombre",
+      "descripcion": "Chomba de pique para hombre.",
+      "precio": 9.599,
+      "imagen": "assets/images/products/chomba_pique_hombre.jpg"
+    },
+    {
+      "id": 3,
+      "categoria": "Pijamas",
+      "nombre": "Pijama de Jersey Corto - Mujer",
+      "descripcion": "Pijama de jersey de algodón para mujer.",
+      "precio": 13.639,
+      "imagen": "assets/images/products/pijama_de_jersey_corto_mujer.jpg"
+    },
+    {
+      "id": 14,
+      "categoria": "Pijamas",
+      "nombre": "Pijama de Jersey Corto con Rayas - Hombre",
+      "descripcion": "Pijama de jersey de algodón corto con rayas para homnre.",
+      "precio": 13.759,
+      "imagen": "assets/images/products/pijama_jersey_rayas_corto_hombre.jpg"
+    },
+    {
+      "id": 15,
+      "categoria": "Pijamas",
+      "nombre": "Pijama de Ribb - Mujer",
+      "descripcion": "Pijama de ribb corto para mujer.",
+      "precio": 7.099,
+      "imagen": "assets/images/products/pijama_ribb_mujer.jpg"
+    },
+    {
+      "id": 16,
+      "categoria": "Pijamas",
+      "nombre": "Pijama de Poplin con Rayas - Hombre",
+      "descripcion": "Pijama poplin con rayas para hombre.",
+      "precio": 12.599,
+      "imagen": "assets/images/products/pijama_poplin_rayas_hombre.jpg"
+    },
+    {
+      "id": 17,
+      "categoria": "Pijamas",
+      "nombre": "Pijama de Ribb Corto - Mujer",
+      "descripcion": "Pijama de ribb corto para mujer.",
+      "precio": 12.399,
+      "imagen": "assets/images/products/pijama_ribb_corto_mujer.jpg"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/images/icons/logo-16x16.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="styles/hvr-styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <script src="styles/styles.js" defer></script>
+    <script src="styles/bootstrap/js/bootstrap.js" defer></script>
+
+    <script src="script.js" defer></script>
+    <script src="cart.js" defer></script>
+
+    <title>Ropa básica | Tres Ases Básicos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white navbar-light border-bottom border-1">
+        <div class="col-10 container-fluid px-2 px-md-5 py-2">
+            <a class="hvr-underline-from-left navbar-brand" href="index.html"><img src="assets/images/logo_tres_ases.png" height="24" alt="Logo Tres Ases"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-1 gap-lg-4 mt-4 mt-lg-0 text-center">
+                    <li class="nav-item">
+                      <a class="hvr-underline-from-left nav-link text-dark" href="shop.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="hvr-underline-from-left nav-link text-dark" href="about.html">Nosotros</a>
+                    </li>
+                    <li id="carritoContainer" class="nav-item">
+                      <div class="d-flex align-items-center justify-content-center text-center h-100 hvr-underline-from-left">
+                        <input id="verCarrito" class="bg-transparent border-0 m-auto" type="button" value="Carrito">
+                      </div>
+                      <div id="carrito" class="bg-white p-3" style="display: none;"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+      <section id="shopHeader" class="d-flex col-12 vh-75 animate__animated animate__fadeInLeft position-relative">
+        <img class="object-fit-cover w-100" src="assets/images/banners/banner-shop.jpg" alt="Banner nosotros">
+      </section>
+    </header>
+
+    <section class="d-flex justify-content-center my-5">
+      <h2>Estás viendo tu carrito</h2>
+    </section>
+
+    <section id="contenedorTablaCarrito" class="d-flex flex-column col-10 justify-content-center m-auto">
+    </section>
+
+    <footer class="d-flex flex-column m-auto col-10 pt-5">
+
+        <div id="mobileMenu" class="d-flex d-lg-none flex-column px-3 py-3">
+          <div class="border-bottom border-1 mb-3">
+            <img src="assets/images/logo_tres_ases.png" height="24" alt="Logo Tres Ases">
+            <h4 class="fs-5">Básicos de ropa</h4>
+          </div>
+          <div id="footerMenu" class="d-flex flex-column gap-3">
+            <div class="d-flex col-12">
+              <ul class="col-6 m-0 p-0">
+                <h5>Superior</h5>
+                <li><a class="text-secondary" href="#">Remeras</a></li>
+                <li><a class="text-secondary" href="#">Musculosas</a></li>
+                <li><a class="text-secondary" href="#">Chombas</a></li>
+                <li><a class="text-secondary" href="#">Camisetas</a></li>
+              </ul>
+              <ul class="col-6 m-0 p-0">
+                <h5>Conjuntos</h5>
+                <li><a class="text-secondary" href="#">Pijamas</a></li>
+                <li><a class="text-secondary" href="#">Niños</a></li>
+                <li><a class="text-secondary" href="#">Térmicos</a></li>
+                <li><a class="text-secondary" href="#">Packs</a></li>
+              </ul>
+            </div>
+            <div class="d-flex col-12">
+              <ul class="col-6 m-0 p-0">
+                <h5>Información</h5>
+                <li><a class="text-secondary" href="#">Preguntas Frecuentes</a></li>
+                <li><a class="text-secondary" href="#">Nosotros</a></li>
+              </ul>
+              <ul class="col-6 m-0 p-0">
+                <h5>Contacto</h5>
+                <li><a class="text-secondary" href="#">+ 54 11 9999-8888</a></li>
+                <li><a class="text-secondary" href="#">tresases@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="desktopMenu" class="d-none d-lg-flex justify-content-between px-5 py-3">
+          <div class="col-4">
+            <img src="assets/images/logo_tres_ases.png" height="24" alt="Logo Tres Ases">
+            <h4 class="fs-5">Básicos de ropa</h4>
+          </div>
+          <div id="footerMenu" class="d-flex justify-content-between col-8">
+            <ul class="m-0 p-0">
+              <h5>Superior</h5>
+              <li><a class="text-secondary" href="">Remeras</a></li>
+              <li><a class="text-secondary" href="">Musculosas</a></li>
+              <li><a class="text-secondary" href="">Chombas</a></li>
+              <li><a class="text-secondary" href="">Camisetas</a></li>
+            </ul>
+            <ul class="m-0 p-0">
+              <h5>Conjuntos</h5>
+              <li><a class="text-secondary" href="">Pijamas</a></li>
+              <li><a class="text-secondary" href="">Niños</a></li>
+              <li><a class="text-secondary" href="">Térmicos</a></li>
+              <li><a class="text-secondary" href="">Packs</a></li>
+            </ul>
+            <ul class="m-0 p-0">
+              <h5>Información</h5>
+              <li><a class="text-secondary" href="">Preguntas Frecuentes</a></li>
+              <li><a class="text-secondary" href="">Nosotros</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex border-top border-1 align-items-center justify-content-between p-3 m-auto col-12">
+          <div class="d-flex gap-1">
+            <img src="assets/images/icons/argentina.png" alt="Bndera de Argentina">
+            <p class="m-auto">Industria Argentina</p>
+          </div>
+          <div class="d-flex gap-4">
+            <a href="https://www.facebook.com/tresasesbasicos/" target="_blank"><img src="assets/images/icons/facebook.png" alt="Logo Facebook"></a>
+            <a href="#"><img src="assets/images/icons/twitter.png" alt="Logo Twitter"></a>
+            <a href="https://www.instagram.com/tresasesbasicos/" target="_blank"><img src="assets/images/icons/instagram.png" alt="Logo Instagram"></a>
+            <a href="#"><img src="assets/images/icons/whatsapp.png" alt="Logo WhatsApp"></a>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>
